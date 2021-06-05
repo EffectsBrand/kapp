@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">GACRPG</string>
+
+
+    <string name="cat1">Breast</string>
+    <string name="cat2">Cardiac</string>
+    <string name="cat3">GastroIntestinal</string>
+    <string name="cat4">Major Blunt Trauma</string>
+    <string name="cat5">Musculoskeletal</string>
+    <string name="cat6">Neurologic</string>
+    <string name="cat7">Pediatrics</string>
+    <string name="cat8">Thoracic</string>
+    <string name="cat9">Urologic</string>
+    <string name="cat10">Vascular</string>
+    <string name="cat11">Women</string>
+    <string name="cat12">Search All</string>
+
+
+    <string-array name="allCats">
+        <item>Breast : Breast Cancer Screening</item>
+        <item>Breast : Breast Imaging of Pregnant and Lactating Women</item>
+        <item>Breast : Breast Implant Evaluation</item>
+        <item>Breast : Breast Pain</item>
+        <item>Breast : Evaluation of Nipple Discharge</item>
+        <item>Breast : Evaluation of Symptomatic Male Breast</item>
+        <item>Breast : Palpable Breast Mass</item>
+        <item>Breast : Stage 1 Breast Cancer in Asymptomatic Women Mass</item>
+        <item>Cardiac : Acute Chest Pain Suspected Aortic Dissection</item>
+        <item>Cardiac : Acute Nonspecific Chest Pain Low Probability of Coronary Artery Disease CAD</item>
+        <item>Cardiac : Asymptomatic Patient at Risk for Coronary Artery Disease CAD</item>
+        <item>Cardiac : Chest Pain Possible Acute Coronary Syndrome ACS</item>
+        <item>Cardiac : Chronic Chest Pain High Probability of Coronary Artery Disease CAD</item>
+        <item>Cardiac : Chronic Chest Pain Noncardiac Etiology Unlikely to Low to Intermediate Probability of Coronary Artery Disease CAD</item>
+        <item>Cardiac : Dyspnea Suspected Cardiac Origin</item>
+        <item>Cardiac : Known or Suspected Congenital Heart Disease in the Adult</item>
+        <item>Cardiac : Suspected New Nonacute Heart Failure</item>
+        <item>GastroIntestinal : Acute Nonlocalized Abdominal Pain</item>
+        <item>GastroIntestinal : Acute Pancreatitis</item>
+        <item>GastroIntestinal : Chronic Liver Disease</item>
+        <item>GastroIntestinal : Colorectal Cancer Screening CRC</item>
+        <item>GastroIntestinal : Crohn\'s Disease</item>
+        <item>GastroIntestinal : Dysphagia</item>
+        <item>GastroIntestinal : Jaundice</item>
+        <item>GastroIntestinal : Left Lower Quadrant Pain Suspected Diverticulitis LLQ</item>
+        <item>GastroIntestinal : Liver Lesion Initial Characterization Hepatic</item>
+        <item>GastroIntestinal : Palpable Abdominal Mass Suspected Neoplasm</item>
+        <item>GastroIntestinal : Pancreatic Cyst</item>
+        <item>GastroIntestinal : Pretreatment Staging Colorectal Cancer CRC</item>
+        <item>GastroIntestinal : Right Lower Quadrant Pain Suspected Appendicitis RLQ</item>
+        <item>GastroIntestinal : Right Upper Quadrant Pain RUQ</item>
+        <item>GastroIntestinal : Staging of Pancreatic Ductal Adenocarcinoma</item>
+        <item>Major Blunt Trauma : Major Blunt Trauma</item>
+        <item>Musculoskeletal : Suspected Acute Hand and Wrist Trauma</item>
+        <item>Musculoskeletal : Acute Hip Pain Suspected Fracture</item>
+        <item>Musculoskeletal : Acute Trauma to the Knee</item>
+        <item>Musculoskeletal : Chronic Ankle Pain</item>
+        <item>Musculoskeletal : Chronic Back Pain Suspected Sacroiliitis Spondyloarthropathy</item>
+        <item>Musculoskeletal : Chronic Elbow Pain</item>
+        <item>Musculoskeletal : Chronic Extremity Joint Pain Suspected Inflammatory Arthritis</item>
+        <item>Musculoskeletal : Chronic Foot Pain</item>
+        <item>Musculoskeletal : Chronic Hip Pain</item>
+        <item>Musculoskeletal : Chronic Knee Pain</item>
+        <item>Musculoskeletal : Chronic Wrist Pain</item>
+        <item>Musculoskeletal : Follow up of Malignant or Aggressive Musculoskeletal Tumors</item>
+        <item>Musculoskeletal : Imaging After Shoulder Arthroplasty</item>
+        <item>Musculoskeletal : Imaging After Total Hip Arthroplasty</item>
+        <item>Musculoskeletal : Imaging After Total Knee Arthroplasty</item>
+        <item>Musculoskeletal : Osteonecrosis of the Hip</item>
+        <item>Musculoskeletal : Osteoporosis and Bone Mineral Density</item>
+        <item>Musculoskeletal : Primary Bone Tumors</item>
+        <item>Musculoskeletal : Shoulder Pain Atraumatic</item>
+        <item>Musculoskeletal : Shoulder Pain Traumatic</item>
+        <item>Musculoskeletal : Soft Tissue Masses</item>
+        <item>Musculoskeletal : Stress Fatigue Insufficiency Fracture Including Sacrum Excluding Other Vertebrae</item>
+        <item>Musculoskeletal : Suspected Osteomyelitis of the Foot in Patients with Diabetes Mellitus</item>
+        <item>Musculoskeletal : Suspected Osteomyelitis of the Foot in Patients with Diabetes Mellitus</item>
+        <item>Neurologic : Acute Mental Status Change Delirium and New Onset Psychosis AMS</item>
+        <item>Neurologic : Ataxia</item>
+        <item>Neurologic : Cerebrovascular Disease CVD</item>
+        <item>Neurologic : Cervical Neck Pain or Cervical Radiculopathy</item>
+        <item>Neurologic : Cranial Neuropathy</item>
+        <item>Neurologic : Dementia and Movement Disorders</item>
+        <item>Neurologic : Dementia</item>
+        <item>Neurologic : Headache</item>
+        <item>Neurologic : Head Trauma</item>
+        <item>Neurologic : Low Back Pain</item>
+        <item>Neurologic : Management of Vertebral Compression Fractures</item>
+        <item>Neurologic : Movement Disorders and Neurodegenerative Diseases</item>
+        <item>Neurologic : Myelopathy</item>
+        <item>Neurologic : Neck Mass Adenopathy</item>
+        <item>Neurologic : Neuroendocrine Imaging</item>
+        <item>Neurologic : Orbits Vision and Visual Loss</item>
+        <item>Neurologic : Plexopathy</item>
+        <item>Neurologic : Seizures and Epilepsy</item>
+        <item>Neurologic : Sinonasal Disease</item>
+        <item>Neurologic : Suspected Spine Trauma</item>
+        <item>Neurologic : Thoracic Outlet Syndrome</item>
+        <item>Neurologic : Thyroid Disease</item>
+        <item>Neurologic : Tinnitus</item>
+        <item>Pediatrics : Acutely Limping Child Up To Age 5</item>
+        <item>Pediatrics : Back Pain Child</item>
+        <item>Pediatrics : Developmental Dysplasia of the Hip Child DDH</item>
+        <item>Pediatrics : Fever Without Source or Unknown Origin Child</item>
+        <item>Pediatrics : Head Trauma Child</item>
+        <item>Pediatrics : Headache Child</item>
+        <item>Pediatrics : Hematuria Child</item>
+        <item>Pediatrics : Pneumonia in the Immunocompetent Child</item>
+        <item>Pediatrics : Scoliosis Child</item>
+        <item>Pediatrics : Seizures Child</item>
+        <item>Pediatrics : Sinusitis Child</item>
+        <item>Pediatrics : Suspected Appendicitis Child</item>
+        <item>Pediatrics : Suspected Physical Abuse Child</item>
+        <item>Pediatrics : Suspected Spine Trauma Child</item>
+        <item>Pediatrics : Suspected Spine Trauma Child</item>
+        <item>Pediatrics : Urinary Tract Infection Child UTI</item>
+        <item>Pediatrics : Vomiting in Infants Up to 3 Months of Age</item>
+        <item>Thoracic : Acute Respiratory Illness in Immunocompetent Patients</item>
+        <item>Thoracic : Acute Respiratory Illness in Immunocompromised Patients</item>
+        <item>Thoracic : Blunt Chest Trauma</item>
+        <item>Thoracic : Chronic Dyspnea Noncardiovascular Origin</item>
+        <item>Thoracic : Hemoptysis</item>
+        <item>Thoracic : Imaging of Possible Tuberculosis TB</item>
+        <item>Thoracic : Intensive Care Unit Patients ICU</item>
+        <item>Thoracic : Lung Cancer Screening</item>
+        <item>Thoracic : Noninvasive Clinical Staging of Primary Lung Cancer</item>
+        <item>Thoracic : Occupational Lung Diseases</item>
+        <item>Thoracic : Radiographically Detected Solitary Pulmonary Nodule</item>
+        <item>Thoracic : Rib Fractures</item>
+        <item>Thoracic : Routine Chest Radiography</item>
+        <item>Thoracic : Suspected Pulmonary Embolism PE</item>
+        <item>Thoracic : Suspected Pulmonary Hypertension</item>
+        <item>Urologic : Acute Onset Flank Pain Suspicion of Stone Disease Urolithiasis</item>
+        <item>Urologic : Acute Onset of Scrotal Pain Without Trauma Without Antecedent Mass</item>
+        <item>Urologic : Acute Pyelonephritis</item>
+        <item>Urologic : Hematospermia</item>
+        <item>Urologic : Hematuria</item>
+        <item>Urologic : Incidentally Discovered Adrenal Mass</item>
+        <item>Urologic : Indeterminate Renal Mass</item>
+        <item>Urologic : Lower Urinary Tract Symptoms Suspicion of Benign Prostatic Hyperplasia BPH</item>
+        <item>Urologic : Penetrating Trauma Lower Abdomen and Pelvis</item>
+        <item>Urologic : Post treatment Follow up of Prostate Cancer</item>
+        <item>Urologic : Post Treatment Surveillance of Bladder Cancer</item>
+        <item>Urologic : Post-Treatment Follow up Clinically Localized Renal Cell Cancer RCC</item>
+        <item>Urologic : Pretreatment Staging of Muscle Invasive Bladder Cancer</item>
+        <item>Urologic : Recurrent Lower Urinary Tract Infections in Women UTI</item>
+        <item>Urologic : Renal Cell Carcinoma Staging RCC</item>
+        <item>Urologic : Renal Failure</item>
+        <item>Urologic : Renal Transplant Dysfunction</item>
+        <item>Urologic : Staging of Testicular Malignancy</item>
+        <item>Vascular : Abdominal Aortic Aneurysm Follow up Without Repair AAA</item>
+        <item>Vascular : Abdominal Aortic Aneurysm Interventional Planning and Follow up AAA</item>
+        <item>Vascular : Chylothorax Treatment Planning removed</item>
+        <item>Vascular : Clinically Suspected Pulmonary Arteriovenous Malformation PAVM removed</item>
+        <item>Vascular : Clinically Suspected Vascular Malformation of the Extremities</item>
+        <item>Vascular : Imaging for Transcatheter Aortic Valve Replacement TAVR</item>
+        <item>Vascular : Imaging of Deep Inferior Epigastric Arteries for Surgical Planning Breast Reconstruction Surgery</item>
+        <item>Vascular : Imaging of Mesenteric Ischemia</item>
+        <item>Vascular : Lower Extremity Arterial Revascularization Post Therapy Imaging</item>
+        <item>Vascular : Nonatherosclerotic Peripheral Arterial Disease PAD</item>
+        <item>Vascular : Nontraumatic Aortic Disease</item>
+        <item>Vascular : Nonvariceal Upper Gastrointestinal Bleeding UGB UGI UGIB</item>
+        <item>Vascular : Penetrating Neck Injury</item>
+        <item>Vascular : Pulsatile Abdominal Mass Suspected AAA</item>
+        <item>Vascular : Radiologic Management of Lower Extremity Venous Insufficiency</item>
+        <item>Vascular : Renovascular Hypertension</item>
+        <item>Vascular : Sudden Onset Cold Painful Leg</item>
+        <item>Vascular : Suspected Lower Extremity Deep Vein Thrombosis DVT</item>
+        <item>Vascular : Suspected Thoracic Aortic Aneurysm TAA</item>
+        <item>Vascular : Suspected Upper Extremity Deep Vein Thrombosis DVT</item>
+        <item>Vascular : Thoracic Aorta Interventional Planning and Follow</item>
+        <item>Vascular : Thoracic Outlet Syndrome</item>
+        <item>Vascular : Vascular Claudication assessment for revascularization</item>
+        <item>Women : Abnormal Vaginal Bleeding</item>
+        <item>Women : Acute Pelvic Pain in the Reproductive Age Group</item>
+        <item>Women : Assessment of Fetal Well Being</item>
+        <item>Women : Assessment of Gravid Cervix</item>
+        <item>Women : Clinically Suspected Adnexal Mass No Acute Symptoms</item>
+        <item>Women : Female Infertility</item>
+        <item>Women : First Trimester Vaginal Bleeding</item>
+        <item>Women : Gestational Trophoblastic Disease GTD</item>
+        <item>Women : Growth Disturbances Risk of Fetal Growth Restriction</item>
+        <item>Women : Multiple Gestations</item>
+        <item>Women : Ovarian Cancer Screening</item>
+        <item>Women : Pelvic Floor Dysfunction</item>
+        <item>Women : Postmenopausal Subacute or Chronic Pelvic Pain</item>
+        <item>Women : Pretreatment Evaluation and Follow Up of Endometrial Cancer</item>
+        <item>Women : Pretreatment Planning of Invasive Cancer of the Cervix</item>
+        <item>Women : Second and Third Trimester Bleeding</item>
+        <item>Women : Staging and Follow up of Ovarian Cancer</item>
+        <item>Women : Suspected Placenta Accreta Spectrum Disorder</item>
+
+    </string-array>
+
+
+
+    <string-array name="hashmap">
+        <item>Women : Abnormal Vaginal Bleeding</item>
+        <item>AbnormalVa</item>
+        <item>Women : Acute Pelvic Pain in the Reproductive Age Group</item>
+        <item>AcutePelvi</item>
+        <item>Women : Assessment of Fetal Well Being</item>
+        <item>AsseFetalW</item>
+        <item>Women : Assessment of Gravid Cervix</item>
+        <item>AsseGravid</item>
+        <item>Women : Clinically Suspected Adnexal Mass No Acute Symptoms</item>
+        <item>ClinAdnexa</item>
+        <item>Women : Female Infertility</item>
+        <item>FemaleInfe</item>
+        <item>Women : First Trimester Vaginal Bleeding</item>
+        <item>FirstTrime</item>
+        <item>Women : Gestational Trophoblastic Disease GTD</item>
+        <item>Gestationa</item>
+        <item>Women : Growth Disturbances Risk of Fetal Growth Restriction</item>
+        <item>GrowthDist</item>
+        <item>Women : Multiple Gestations</item>
+        <item>MultipleGe</item>
+        <item>Women : Ovarian Cancer Screening</item>
+        <item>OvarianCan</item>
+        <item>Women : Pelvic Floor Dysfunction</item>
+        <item>PelvicFloo</item>
+        <item>Women : Postmenopausal Subacute or Chronic Pelvic Pain</item>
+        <item>Postmenopa</item>
+        <item>Women : Pretreatment Evaluation and Follow Up of Endometrial Cancer</item>
+        <item>PreEvEndom</item>
+        <item>Women : Pretreatment Planning of Invasive Cancer of the Cervix</item>
+        <item>PrePCancer</item>
+        <item>Women : Second and Third Trimester Bleeding</item>
+        <item>SecondandT</item>
+        <item>Women : Staging and Follow up of Ovarian Cancer</item>
+        <item>Stagingand</item>
+        <item>Women : Suspected Placenta Accreta Spectrum Disorder</item>
+    </string-array>
+
+</resources>
