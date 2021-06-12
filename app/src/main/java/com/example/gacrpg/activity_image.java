@@ -24,12 +24,12 @@ public class activity_image extends AppCompatActivity {
         TextView textview =  findViewById(R.id.textView);
         //textview.setText(sessionId); //this is for testing purposes
 
-        PhotoView photoView = (PhotoView) findViewById(R.id.photo_view3);
+        PhotoView photoView = findViewById(R.id.photo_view3);
         //photoView.setImageResource(R.drawable.abnormale); //works
         int test = getStringIdentifier(this, sessionId); //is this right? well it works?
         //photoView.setImageResource(R.drawable.abnormale);
         photoView.setImageResource(test);
-       // textview.setText(test+""); //this is for testing purposes
+        //textview.setText(sessionId); //this is for testing purposes
 
     }
 

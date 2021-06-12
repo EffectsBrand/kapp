@@ -16,6 +16,24 @@
     <string name="cat12">Search All</string>
 
 
+    <string-array name="test1">
+        <item>Parent Cat</item>
+        <item> Sub Cat 1</item>
+        <item> Sub Cat 2</item>
+    </string-array>
+
+    <string-array name="test2">
+        <item>Parent Cat Sub Cat 1 Sub Cat 2 !</item>
+        <item> Sub Cat 1</item>
+        <item> Sub Cat 2</item>
+    </string-array>
+
+    <string-array name="test3">
+        <item>im_parent</item>
+        <item>im_cat_one</item>
+        <item>im_cat_two</item>
+    </string-array>
+
     <string-array name="allCats">
         <item>Breast : Breast Cancer Screening</item>
         <item>Breast : Breast Imaging of Pregnant and Lactating Women</item>
