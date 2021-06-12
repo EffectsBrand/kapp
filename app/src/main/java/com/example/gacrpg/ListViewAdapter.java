@@ -78,13 +78,33 @@ public class ListViewAdapter extends BaseAdapter {
 
         holder.name.setText(animalNamesList.get(position).getAnimalName()); //this is part of the problem. aniamlsNamesList is the searchlist. visibleList causes bugsin the seaching. visArraylist causes the same bugs
 
-        if (position==0){//this is what we wanttttt except this is always the first and we want it to recognize the parent category.
+        if (AnimalLeash(animalNamesList.get(position))){//this is what we wanttttt except this is always the first and we want it to recognize the parent category.
             view.setBackgroundColor(Color.parseColor("#bae0dd"));
+
+            //
         }
 
+            if(arraylist.get(visArraylist.indexOf(visibleList.get(position))).getAnimalName().contains("!")){
+                view.setBackgroundColor(Color.parseColor("#bae0dd"));
+            }else{
+                view.setBackgroundColor(Color.parseColor("#e0babd")); //this also stops some color bugs, where you
+            }
+
+        Log.d("myTabby2", position + " " +arraylist.get(visArraylist.indexOf(visibleList.get(position))).getAnimalName() + " " +   visibleList.get(position).getAnimalName() + " " +  animalNamesList.get(position).getAnimalName() + "  " + visArraylist.get(position).getAnimalName() );
+//take animalNamesList or visibleList and look it up in visArrayList.
+        //one second we need to fic the bug, when it gets both and you go back to begging and then reset.
+        // find the equ in arraylist
         return view;
     }
+    public boolean AnimalLeash(AnimalNames input){
+        boolean blue = false;
 
+
+            if(input.getAnimalName().toLowerCase(Locale.getDefault()).contains("!")){
+                blue=true;
+            }
+        return blue;
+    }
     // Filter Class
     public void filter(String charText) {
         charText = charText.toLowerCase(Locale.getDefault());
@@ -103,7 +123,7 @@ public class ListViewAdapter extends BaseAdapter {
                     AnimalNames p = visArraylist.get(index);
                     AnimalNames tempName = new AnimalNames(index + "test");
                     animalNamesList.add(p); //okay so this can show a single one, but in reality, i want to show the one that the linked list.
-                    Log.d("myTag3", index +" | " + p.getAnimalName() + " | " + tempName.getAnimalName() );
+
                 }
             }
         }
